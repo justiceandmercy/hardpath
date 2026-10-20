@@ -1,0 +1,9 @@
+[project]
+name = "hardpath"
+version = "0.1.0"
+description = "Detect hardcoded absolute filesystem paths in source code."
+license = {text = "MIT"}
+requires-python = ">=3.8"
+
+[project.scripts]
+hardpath = "hardpath:main"
